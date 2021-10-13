@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/logic.js"></script>
+    <title>Average Speed Calculation</title>
+</head>
+
+<body>
+    <main>
+        <h1>Average Speed Calculation</h1>
+        <div class="calc-main">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Track</th>
+                        <th>Distance (km)</th>
+                        <th>Speed (km/h)</th>
+                        <th>Time (hh:mm)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <button class="button" type="submit" onclick="addTrack()">Add track</button>
+            <button class="button" type="submit" onclick="removeTrack()">Remove track</button>
+            <br><br>
+            <div id="result">Average Speed: </div>
+        </div>
+    </main>
+</body>
+
+</html>
